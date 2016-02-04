@@ -12,7 +12,7 @@ package lab1;
 public class HRManager {
     private Employee employee;
     
-    public void orientNewEmployee(String firstName, String lastName, String ssn){
+    public void hireEmployee(String firstName, String lastName, String ssn){
         Employee e = new Employee();
         e.setFirstName(firstName);
         e.setLastName(lastName);
