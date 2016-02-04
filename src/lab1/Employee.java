@@ -28,7 +28,7 @@ public class Employee {
     }
 
     // Assume this must be performed first
-    private void meetWithHrForBenefitAndSalryInfo() {
+    public void meetWithHrForBenefitAndSalryInfo() {
         String fmtDate = formatDate();
         System.out.println("Met with Hr on " + fmtDate);
         metWithHr = true;
