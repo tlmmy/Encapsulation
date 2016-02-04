@@ -17,9 +17,12 @@ public class HRManager {
         e.setFirstName(firstName);
         e.setLastName(lastName);
         e.setSsn(ssn);
-        e.doOrientation("101");
         employee = e;
                
+    }
+    
+    public void orientEmployee(){
+        employee.doOrientation("101");
     }
     
     public String getEmployeeStatus() {
